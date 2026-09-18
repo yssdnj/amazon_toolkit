@@ -44,7 +44,7 @@ def run():
 
 def add_row(file_path, save_path=None):
 
-    sheets = ["SL","Toy", "ToyDH", "DL", "DSL", "MFL", "SFM", "SC","SL_访问量","Toy_访问量", "ToyDH_访问量", "DL_访问量", "DSL_访问量", "MFL_访问量", "SFM_访问量", "SC_访问量"]
+    sheets = ["SL","Toy", "ToyDH", "DL", "DSL", "MFL", "SFM", "SC", "VHAN1", "VHAN2","SL_访问量","Toy_访问量", "ToyDH_访问量", "DL_访问量", "DSL_访问量", "MFL_访问量", "SFM_访问量", "SC_访问量", "VHAN1_访问量", "VHAN2_访问量"]
 
     # ==============================================================================
     # 20260503修改：App 生命周期改用 try/finally 保护
@@ -119,7 +119,7 @@ def add_row(file_path, save_path=None):
 
 def fill_data(file1, file2):
 
-    sheet_map = ["SL", "Toy", "ToyDH", "DL", "DSL", "MFL", "SFM", "SC"]
+    sheet_map = ["SL", "Toy", "ToyDH", "DL", "DSL", "MFL", "SFM", "SC", "VHAN1", "VHAN2"]
 
     summary_cols = [
         "销量", "订单量", "销售额", "促销销量", "促销订单量", "促销销售额",
@@ -216,6 +216,8 @@ def fill_session(file1, file2):
         "MFL_访问量":   "MFL",
         "SFM_访问量":   "SFM",
         "SC_访问量":    "SC",
+        "VHAN1_访问量": "VHAN1",
+        "VHAN2_访问量": "VHAN2"
     }
 
     session_cols = [
