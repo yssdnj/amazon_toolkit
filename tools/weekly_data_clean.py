@@ -27,9 +27,9 @@ SUBGROUP_RULES = {
     'DSL': ['3FT', '6FT'],
     'MFL': ['AL', 'ZN'],
     'SFM': ['SFM 1', 'SFM 2', 'SFM 3'],
-    'SC': ['S', 'M', 'L'],
-    'VHAN1': ['S', 'M', 'L'],
-    'VHAN2': ['S', 'M', 'L', 'XL']
+    'SC': ['SC S', 'SC M', 'SC L'],
+    'VHAN1': ['VHAN1 S', 'VHAN1 M', 'VHAN1 L'],
+    'VHAN2': ['VHAN2 S', 'VHAN2 M', 'VHAN2 L', 'VHAN2 XL']
 }
 
 
